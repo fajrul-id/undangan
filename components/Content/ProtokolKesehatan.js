@@ -33,7 +33,9 @@ export default function ProtokolKesehatan({}) {
                                 </h4>
                                 <div className="flex justify-center">
                                 </div>
+                                <div className="flex justify-center">
                                 <Image src={Distance} width={100} height={100}/>
+                                </div>
                                 <p>Saling menjaga jarak ketika menghadiri acara</p>
                             </div>
                             <div className={"md:w-3/12 w-6/12 mb-10"}>

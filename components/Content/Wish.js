@@ -17,12 +17,18 @@ export default function Wish({
         "nama": "",
         "hubungan": "",
         "doa": "",
-        "hadir": true
+        "hadir": ""
     })
-    const checkData = (r) => {
+    const H = (r) => {
         setValue({
             ...valueKirim,
-            "hadir": r.target.value
+            "hadir": "Hadir"
+        })
+    }
+    const TH = (r) => {
+        setValue({
+            ...valueKirim,
+            "hadir": "Tidak Hadir"
         })
     }
     console.log('debug test hadir', valueKirim.hadir)
@@ -31,7 +37,7 @@ export default function Wish({
         getData()
     }, [])
     const getData = () => {
-        axios.get(`https://moexpress.herokuapp.com/api/posts`)
+        axios.get(`https://result.fajrul.id/api/result/u?userId=amin`)
             .then(data => {
                 setDoa(data.data)
             }).catch(err => {
@@ -48,12 +54,13 @@ export default function Wish({
     const kirimPesan = () => {
         console.log('debug test', valueKirim.hadir)
         const kirim = {
-            "nama": guest,
-            "hubungan": valueKirim.hubungan,
-            "doa": valueKirim.doa,
-            "hadir": valueKirim.hadir
+            "email": guest,
+            "password": valueKirim.hubungan,
+            "name": valueKirim.doa,
+            "address": valueKirim.hadir,
+            "userId": "amin",
         }
-        axios.post(`https://moexpress.herokuapp.com/api/posts`, kirim)
+        axios.post(`https://result.fajrul.id/api/result`, kirim)
             .then(() => {
                 Swal.fire({
                     imageUrl: `https://cdn-icons-png.flaticon.com/512/3158/3158981.png`,
@@ -68,7 +75,7 @@ export default function Wish({
                     "nama": "",
                     "hubungan": "",
                     "doa": "",
-                    "hadir": true
+                    "hadir": ""
                 })
             }).catch(err => {
             console.log('debug err', err)
@@ -134,7 +141,7 @@ export default function Wish({
                                     name="radio"
                                     value={true}
                                     onClick={(e) => {
-                                        checkData(e)
+                                        H(e)
                                     }}
                                 />
                                 <span className="ml-2">Hadir</span>
@@ -142,7 +149,7 @@ export default function Wish({
                             <label className="inline-flex items-center">
                                 <input type="radio" className="form-radio" name="radio" value={false}
                                        onClick={(e) => {
-                                           checkData(e)
+                                           TH(e)
                                        }}
                                 />
                                 <span className="ml-2">Tidak Hadir</span>
@@ -177,9 +184,9 @@ export default function Wish({
                             <div className={"lg:w-3/12 w-full lg:ml-10 ml-5 mb-10 mx-5 ml-4 "}>
                                 <Card
                                     key={index}
-                                    name={item.nama}
-                                    desc={item.doa}
-                                    work={item.hubungan}
+                                    name={item.name}
+                                    desc={item.email}
+                                    work={item.password}
                                 />
                             </div>
                         </>
