@@ -232,9 +232,8 @@ export default function Waktu() {
                           <span className={"font-bold"}>
                             Kediaman mempelai wanita : <br />
                           </span>
-                          Jl. Caman Raya Gg. H. Moh. Ali <br />
-                          (Belakang Kopi bob) <br />
-                          No.1 RT 07/03, Jatibening.
+                          Jl. Bangka II F No.13<br />RT.3/RW.13, Pela Mampang,<br /> Kec. Mampang Prpt.,
+              Kota Jakarta Selatan,<br /> Daerah Khusus Ibukota Jakarta 12720
                         </h3>
                         <button
                           className="bg-color-pallete-200 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded mb-5 md:mb-0"
