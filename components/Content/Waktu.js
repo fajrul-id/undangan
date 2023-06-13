@@ -83,6 +83,33 @@ export default function Waktu() {
               Jl. Bangka II F No.13RT.3/RW.13, Pela Mampang, Kec. Mampang Prpt.,
               Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720
             </p>
+            <button
+            className="mt-4 bg-blue-600 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
+            onClick={() => {
+              setShowModal(true);
+              setCopied({
+                fajrul: false,
+                alamat: false,
+              });
+            }}
+          >
+            <p className={"flex"}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
+                  clipRule="evenodd"
+                />
+                <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
+              </svg>
+              &nbsp; Kirim Hadiah
+            </p>
+          </button>
           </div>
           <div className={"md:w-1/12"}></div>
           <div className="shadow-lg text-center md:w-5/12 md:-ml-12 px-3 mb-6 py-10">
@@ -104,6 +131,33 @@ export default function Waktu() {
               Jl. Bangka II F No.13RT.3/RW.13, Pela Mampang, Kec. Mampang Prpt.,
               Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720
             </p>
+            <button
+            className="mt-4 bg-blue-600 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
+            onClick={() => {
+              setShowModal(true);
+              setCopied({
+                fajrul: false,
+                alamat: false,
+              });
+            }}
+          >
+            <p className={"flex"}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
+                  clipRule="evenodd"
+                />
+                <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
+              </svg>
+              &nbsp; Kirim Hadiah
+            </p>
+          </button>
           </div>
         </div>
         <Timer />
@@ -131,7 +185,7 @@ export default function Waktu() {
           </a>
           &nbsp;
           <button
-            className="bg-color-pallete-200 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
+            className="bg-color-pallete-450 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
             onClick={() => {
               setShowModal(true);
               setCopied({
@@ -168,7 +222,7 @@ export default function Waktu() {
                   <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                     <h3 className="text-2xl font-semibold">Kado Pernikahan</h3>
                     <button
-                      className="p-1 ml-auto border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                      className="p-2 ml-auto border-0 text-black opacity-75 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                       onClick={() => setShowModal(false)}
                     >
                       <svg
