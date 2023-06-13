@@ -78,7 +78,7 @@ export default function Waktu() {
               </button>
             </a>
             <br />
-            <p className={"font-bold"}>Kediaman Tara</p>
+            <p className={"font-bold"}>Kediaman Bpk. Muheri</p>
             <p className={"px-16"}>
               Jl. Bangka II F No.13RT.3/RW.13, Pela Mampang, Kec. Mampang Prpt.,
               Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720
@@ -99,7 +99,7 @@ export default function Waktu() {
             <p className={"font-bold"}>Minggu. 13 Agustus 2023</p>
             <p className={"font-bold"}>11:00 - 16:00</p>
             <br />
-            <p className={"font-bold"}>Kediaman Tara</p>
+            <p className={"font-bold"}>Kediaman Bpk. Muheri</p>
             <p className={"px-16"}>
               Jl. Bangka II F No.13RT.3/RW.13, Pela Mampang, Kec. Mampang Prpt.,
               Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720
