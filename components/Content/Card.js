@@ -1,6 +1,6 @@
 import profile from '../../assets/blank-profile.png'
 
-export default function Card({name, desc, src, work}) {
+export default function Card({name, desc, src, work,address}) {
     return (
         <div className={"rounded-xl justify-center boxShadow group"}>
             <div
@@ -19,7 +19,7 @@ export default function Card({name, desc, src, work}) {
                             {name}
                         </h1>
                         <p className={"text-md text-blackContent opacity-75 font-light"}>
-                            {work}
+                            {work}{address && `(${address})` || "(Tidak Hadir)"}
                         </p>
                     </div>
                 </div>
