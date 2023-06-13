@@ -124,7 +124,7 @@ export default function Waktu() {
               Resepsi
             </h1>
             <p className={"font-bold"}>Minggu. 13 Agustus 2023</p>
-            <p className={"font-bold"}>11:00 - 16:00</p>
+            <p className={"font-bold"}>11:00 - Selesai</p>
             <br />
             <p className={"font-bold"}>Kediaman Bpk. Muheri</p>
             <p className={"px-16"}>
