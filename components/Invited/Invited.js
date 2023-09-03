@@ -19,7 +19,7 @@ export default function Invited({ changeInvited, nameGuest }) {
   };
   return (
     <>
-      <div className={"bg-invited min-h-screen bg-cover bg-bottom pb-10"}>
+      <div className={"bg-invited min-h-screen bg-cover bg-center pb-10"}>
         <div className={"text-center" + " opacity-100"}>
           <div className={"md:py-10 object-left-top flex justify-center"}>
             <Image src={"/bunga1.png"} width={512} height={282} />

@@ -342,7 +342,7 @@ export default function Waktu() {
         <div className={"mx-auto justify-center flex"}>
           <iframe
             className={"md:w-8/12 w-11/12"}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31729.140839167994!2d106.80836763359375!3d-6.244930649068259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3d8ffad599b%3A0xccc4b082a031f435!2sRT.3%2FRW.13%2C%20Pela%20Mampang%2C%20Mampang%20Prapatan%2C%20South%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1686557333907!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.017582024303!2d102.28927872480891!3d-3.806277843572904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36b11988ba954d%3A0xfd7c6bed4fe6f9db!2sFajrul.Id%20Betta%20(Toko%20Ikan%20Cupang)!5e0!3m2!1sen!2sid!4v1693761785716!5m2!1sen!2sid"
             height="450"
             style={{ border: 0 }}
             allowFullScreen=""
