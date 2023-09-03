@@ -52,7 +52,8 @@ export default function Waktu() {
         <div className={"container flex flex-wrap mx-auto pt-5"}>
           <br />
           <div className="shadow-lg text-center md:w-5/12 md:ml-20 mb-6 px-3 py-10">
-          <div className="flex justify-center"><Image src={Ring} width={100} height={100} />
+            <div className="flex justify-center">
+              <Image src={Ring} width={100} height={100} />
             </div>
             <h1
               className={
@@ -84,104 +85,106 @@ export default function Waktu() {
               Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720
             </p>
             <button
-            className="mt-4 bg-blue-600 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
-            onClick={() => {
-              setShowModal(true);
-              setCopied({
-                fajrul: false,
-                alamat: false,
-              });
-            }}
-          >
-            <p className={"flex"}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
-                  clipRule="evenodd"
-                />
-                <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
-              </svg>
-              &nbsp; Kirim Hadiah
-            </p>
-          </button>
+              className="mt-4 bg-blue-600 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
+              onClick={() => {
+                setShowModal(true);
+                setCopied({
+                  fajrul: false,
+                  alamat: false,
+                });
+              }}
+            >
+              <p className={"flex"}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
+                    clipRule="evenodd"
+                  />
+                  <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
+                </svg>
+                &nbsp; Kirim Hadiah
+              </p>
+            </button>
           </div>
           <div className={"md:w-1/12"}></div>
           <div className="shadow-lg text-center md:w-5/12 md:-ml-12 px-3 mb-6 py-10">
             <div className="flex justify-center">
-            <Image src={Wedding} width={100} height={100} />
+              <Image src={Wedding} width={100} height={100} />
             </div>
             <h1
               className={
                 "md:text-6xl capitalize text-5xl md:mb-0 font-medium leading-relaxed font-curs"
               }
             >
-              Resepsi
+              Unduh Mantu
             </h1>
-            <p className={"font-bold"}>Minggu. 13 Agustus 2023</p>
-            <p className={"font-bold"}>11:00 - Selesai</p>
+            <p className={"font-bold"}>Minggu. 17 September 2023</p>
+            <p className={"font-bold"}>10:00 - Selesai</p>
             <br />
-            <p className={"font-bold"}>Kediaman Bpk. Muheri</p>
+            <p className={"font-bold"}>Kediaman Bpk. Mulyadi</p>
             <p className={"px-16"}>
-              Jl. Bangka II F No.13RT.3/RW.13, Pela Mampang, Kec. Mampang Prpt.,
-              Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720
+              Jl. Merapi 6a No.23 Rt.06 Rw.02 Kel.Panorama Kec.Singaran Pati
+              Kota Bengkulu
             </p>
             <button
-            className="mt-4 bg-blue-600 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
-            onClick={() => {
-              setShowModal(true);
-              setCopied({
-                fajrul: false,
-                alamat: false,
-              });
-            }}
-          >
-            <p className={"flex"}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
-                  clipRule="evenodd"
-                />
-                <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
-              </svg>
-              &nbsp; Kirim Hadiah
-            </p>
-          </button>
+              className="mt-4 bg-blue-600 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded"
+              onClick={() => {
+                setShowModal(true);
+                setCopied({
+                  fajrul: false,
+                  alamat: false,
+                });
+              }}
+            >
+              <p className={"flex"}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z"
+                    clipRule="evenodd"
+                  />
+                  <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
+                </svg>
+                &nbsp; Kirim Hadiah
+              </p>
+            </button>
           </div>
         </div>
         <Timer />
         <div className={"text-center mb-2"}>
-          <a href="https://www.google.com/maps/place/6°14'43.2%22S+106°49'14.8%22E/@-6.2456806,106.8207179,19z/data=!4m4!3m3!8m2!3d-6.245327!4d106.820765" target="_blank" rel="noreferrer">
-            <button
-            className="bg-color-pallete-200 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded mb-2 md:mb-0"
-            >
-            <p className={"flex"}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              &nbsp; Buka Google Maps
-            </p>
-          </button>
+          <a
+            href="https://goo.gl/maps/FCtxDsEfSTiigiko7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="bg-color-pallete-200 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded mb-2 md:mb-0">
+              <p className={"flex"}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                &nbsp; Buka Google Maps
+              </p>
+            </button>
           </a>
           &nbsp;
           <button
@@ -286,8 +289,11 @@ export default function Waktu() {
                           <span className={"font-bold"}>
                             Kediaman mempelai wanita : <br />
                           </span>
-                          Jl. Bangka II F No.13<br />RT.3/RW.13, Pela Mampang,<br /> Kec. Mampang Prpt.,
-              Kota Jakarta Selatan,<br /> Daerah Khusus Ibukota Jakarta 12720
+                          Jl. Bangka II F No.13
+                          <br />
+                          RT.3/RW.13, Pela Mampang,
+                          <br /> Kec. Mampang Prpt., Kota Jakarta Selatan,
+                          <br /> Daerah Khusus Ibukota Jakarta 12720
                         </h3>
                         <button
                           className="bg-color-pallete-200 hover:bg-color-pallete-300 text-white font-bold py-2 px-4 rounded mb-5 md:mb-0"
