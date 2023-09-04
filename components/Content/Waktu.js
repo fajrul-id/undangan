@@ -13,7 +13,7 @@ export default function Waktu() {
   const [showModal, setShowModal] = useState(false);
   const [copied, setCopied] = useState({
     fajrul: false,
-    novia: false,
+    tara: false,
     alamat: false,
   });
   const fade = useSpring({
@@ -129,7 +129,7 @@ export default function Waktu() {
             <br />
             <p className={"font-bold"}>Kediaman Bpk. Mulyadi</p>
             <p className={"px-16"}>
-              Jl. Merapi 6a No.23 Rt.06 Rw.02 Kel.Panorama Kec.Singaran Pati
+              Jl. Merapi 6A No.23 Rt.06 Rw.02 Kel.Panorama Kec.Singaran Pati
               Kota Bengkulu
             </p>
             <button

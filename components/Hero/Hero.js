@@ -11,7 +11,7 @@ export default function Hero({ guest }) {
   });
   return (
     <>
-      <div className={"bg-hero bg-cover bg-top"}>
+      <div className={"bg-hero bg-top bg-contain"}>
         <div className={"text-center opacity-100"}>
           <div className={"md:py-10 object-left-top flex justify-center"}>
             <Image src={"/bunga1.png"} width={512} height={282} />

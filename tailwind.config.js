@@ -66,7 +66,7 @@ module.exports = {
       backgroundImage: {
         invited: `linear-gradient(to bottom, rgba(35, 162, 168, 0.52), rgba(22, 64, 97, 0.73)),url(/wed1.jpg)`,
         // "best-resolution": `url(/best_resolution1.png)`,
-        footer: `url(/footer1.webp)`,
+        footer: `url(/wed2.jpg)`,
       },
       boxShadow: {
         "theme-1": "0 0 60px -15px rgba(0, 0, 0, 0.7)",
