@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         <title>The Wedding Of Tara & Fajrul</title>
         <meta
           name="description"
-          content="17 September 2023 Unduh Mantu Invitation"
+          content="17 September 2023 Ngunduh Mantu Invitation"
         />
         <meta
           name="robots"
@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Tara &amp; Fajrul" />
-        <meta property="og:description" content="Unduh Mantu Invitation" />
+        <meta property="og:description" content="Ngunduh Mantu Invitation" />
         <meta property="og:url" content="tara.fajrul.id" />
         <meta
           property="og:site_name"
-          content="Unduh Mantu Invitation Tara & Fajrul"
+          content="Ngunduh Mantu Invitation Tara & Fajrul"
         />
         <meta property="og:image" content="/wed1.jpg" />
         <meta property="og:image:secure_url" content="/wed1.jpg" />
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <meta property="ya:ovs:allow_embed" content="true" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Tara &amp; Fajrul" />
-        <meta name="twitter:description" content="Unduh Mantu Invitation" />
+        <meta name="twitter:description" content="Ngunduh Mantu Invitation" />
         <meta name="twitter:image" content="/wed1.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </head>

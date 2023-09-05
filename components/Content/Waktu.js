@@ -122,7 +122,7 @@ export default function Waktu() {
                 "md:text-6xl capitalize text-5xl md:mb-0 font-medium leading-relaxed font-curs"
               }
             >
-              Unduh Mantu
+              Ngunduh Mantu
             </h1>
             <p className={"font-bold"}>Minggu. 17 September 2023</p>
             <p className={"font-bold"}>10:00 - Selesai</p>
